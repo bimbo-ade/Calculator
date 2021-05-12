@@ -1,0 +1,56 @@
+
+.calculator{
+  height: 500px;
+  width: 330px;
+  background-color: rgb(204, 197, 197);
+  
+}
+.input{
+  height: 120px;
+
+}
+.keyboard{
+  height: 380px;
+  
+}
+
+
+.operator, .num{
+  width:40px;
+  height: 40px;
+  margin: 19px;
+  padding: 9px;
+  border-radius: 50%;
+  border: 0;
+  font-weight: bold;
+}
+ .num{
+   background-color:rgb(204, 197, 197) ;
+ } 
+ .num:hover{
+   background-color: grey;
+ }
+ .operator:nth-child(1){
+  background-color: blue;
+ }
+ .operator:nth-child(2){
+  background-color:yellow;
+}
+.operator:nth-child(3){
+  background-color:coral;
+}
+.operator:nth-child(4){
+  background-color:purple;
+}
+.operator:nth-child(8){
+  background-color: green;
+}
+.operator:nth-child(12){
+  background-color: brown;
+}
+.operator:nth-child(16){
+  background-color: orange;
+}
+.operator:nth-child(20){
+  background-color: pink;
+}
